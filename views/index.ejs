@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Martian TV Time</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('/martian-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      margin-top: 20vh;
+      display: inline-block;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Next Airing of "The Martian"</h1>
+    <p><%= airingInfo %></p>
+  </div>
+</body>
+</html>
